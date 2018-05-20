@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(90deg, #008ed6, #00e8d6);
+}
+.card {
+
+
+  .card-header {
+    h1 {
+      letter-spacing:2px;
+      font-weight:300;
+
+    }
+  }
+
+
+}
+
+#inputColorField {
+  padding:1px;
+  max-width:100px;
+
+}
+
+#circle {
+  height:5px;
+  width:5px;
+  border-radius:50%;
+  background:#000;
+  margin:0 auto;
+}
+
+.draw-container {
+
+  height:400px;
+  border-radius:5px;
+
+}
+
+a {
+  &.btn {
+    cursor:pointer;
+  }
+}
+
+#paint {
+
+  margin:0 auto;
+  border:3px solid #eee;
+  cursor: move;
+  background:#fff;
+}
+
+.erase-mode {
+  border:3px solid #ff0000;
+}
+
